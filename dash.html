@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+     <link rel="icon" type="image/png" href="lo.png"> 
+	<link rel="stylesheet" href="dash.css">
+</head>
+<body>
+<div class="container">
+	<aside>
+		<div class="top">
+			<div class="logo">
+				<img src="lo.png" width="120px">
+				
+			</div>
+			<div class="close" id="cls-btn">
+				<!--span class="material-icons-sharp">close</span-->
+   				<h2><img src="close.png"></h2>
+			</div>
+		</div>
+		<div class="sidebar">
+			<a href="home.html"><h3><img src="grid-18.png" width="25px">Home Page</h3></a>
+			<a href="#"><h3><img src="grid-18.png" width="25px">Admin Dashboard</h3></a>
+			<a href="#" class="active"><h3><img src="grid-18.png" width="25px">Query Progress</h3></a>
+			<a href="#"><h3><img src="grid-18.png" width="25px">Water Management</h3></a>
+			<a href="#"><h3><img src="grid-18.png" width="25px">Funds and Reports</h3></a>
+			<a href="#"><h3><img src="grid-18.png" width="25px">Basic Managements</h3></a>
+			<a href="#"><h3><img src="grid-18.png" width="25px">Schemes and Reports</h3></a>
+			
+		</div>		
+	</aside>
+	<!----------Main---------->
+	<main>
+		<h1>Dashboard</h1>
+		<div class="date">
+			<input type="date" >
+		</div>
+
+		<div class="insights">
+			<div class="Completed">
+				<h3><img src="grid-18.png" width="25px">Dashboard</h3>
+				<div class="middle">
+					<div class="left">
+						<h3>Total Queries</h3>
+						<h1>107</h1>
+					</div>
+					<div class="progress">
+						<svg>
+							<circle cx='38' cy='38' r='36'></circle>
+						</svg>
+						<div class="number">
+							<p>64%</p>
+						</div>		
+					</div>	
+				</div>
+				<small class="text-muted">last 1 month</small>
+			</div>		
+			<!---------------------------->
+			<div class="On_progress">
+				<h3><img src="grid-18.png" width="25px">Dashboard</h3>
+				<div class="middle">
+					<div class="left">
+						<h3>On Progress</h3>
+						<h1>107</h1>
+					</div>
+					<div class="progress">
+						<svg>
+							<circle cx='38' cy='38' r='36'></circle>
+						</svg>
+						<div class="number">
+							<p>64%</p>
+						</div>		
+					</div>	
+				</div>
+				<small class="text-muted">last 1 month</small>
+			</div>		
+			<!----------------------------------->
+			<div class="No_Result">
+				<h3><img src="grid-18.png" width="25px">Dashboard</h3>
+				<div class="middle">
+					<div class="left">
+						<h3>Completed</h3>
+						<h1>107</h1>
+					</div>
+					<div class="progress">
+						<svg>
+							<circle cx='38' cy='38' r='36'></circle>
+						</svg>
+						<div class="number">
+							<p>64%</p>
+						</div>		
+					</div>	
+				</div>
+				<small class="text-muted">last 1 month</small>
+			</div>		
+			<!------------------------------------------>
+		</div>
+		<!----------------Table------------>
+		<div class="info">
+			<h2>Query-info</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>S.no</th>
+						<th>Schemes</th>
+						<th>Year</th>
+						<th>Total attendies</th>
+						<th>Completed</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<td>1</td>
+					<td>Pratham Manthri Awas Yojna</td>
+					<td>2022-2023</td>
+					<td>65</td>
+					<td>54</td>
+
+					<tr>
+						<td>2</td>
+						<td>Kisan Sinchayee Yojna</td>
+						<td>2022-2023</td>
+						<td>77</td>
+						<td>60</td>
+					</tr>
+					
+					<tr>
+						<td>3</td>
+						<td>Marraige Assistance Scheme</td>
+						<td>2022-2023</td>
+						<td>40</td>
+						<td>40</td>
+					</tr>
+				</tbody>
+			</table>
+			<a href="#">show more</a>
+		</div>
+	</main>
+	<!--------------------------------->
+	<div class="right">
+		<div class="top">
+			<button id="menu">
+				<img src="grid-18.png" width="25px">
+			</button>
+			<div class="theme">
+				<h3><img src="grid-18.png" width="25px" active>Light</h3>
+				<h3><img src="grid-18.png" width="25px">Dark</h3>
+		</div>	
+		<div class="profile">
+			<div class="info">
+				<p>hi, <b>Samson </b></p>
+				<small class="text-muted">Admin</small>
+			</div>
+			<div class="pro-photo">
+			<img src="grid-18.png" width="25px">
+			</div>
+		</div>	
+		</div>
+		<!----------------------------->
+	 <div class="rec-updates">
+	 	<h2>Recent Updates</h2>
+	 	<div class="updates">
+	 		<div class="update">
+	 		<div class="pro-photo">
+	 			<img src="grid-18.png" width="25px">
+	 	</div>
+	 	<div class="message">
+	 		<p><b>Ishan</b> recived</p>
+	 		<small class="text-muted">1 hour ago</small>
+	 	</div>
+
+	 		<div class="update">
+	 		<div class="pro-photo">
+	 			<img src="grid-18.png" width="25px">
+	 	</div>
+	 	<div class="message">
+	 		<p><b>Ishan</b> recived</p>
+	 		<small class="text-muted">1 hour ago</small>
+	 	</div>
+	 </div>
+
+	 	<div class="update">
+	 		<div class="pro-photo">
+	 			<img src="grid-18.png" width="25px">
+	 	</div>
+	 	<div class="message">
+	 		<p><b>Ishan</b> recived</p>
+	 		<small class="text-muted">1 hour ago</small>
+	 	</div>
+	 </div>
+
+	 	<div class="update">
+	 		<div class="pro-photo">
+	 			<img src="grid-18.png" width="25px">
+	 	</div>
+	 	<div class="message">
+	 		<p><b>Ishan</b> recived</p>
+	 		<small class="text-muted">1 hour ago</small>
+	 	</div>
+	 </div>
+	 </div>
+	</div>	
+<!--------------------------------->
+<div class="analysis">
+	<h2>Analysis</h2>
+	<div class="online">
+		<div class="icon">
+		<img src="grid-18.png" width="25px">
+	</div>
+	<div class="right">
+		<div class="info">
+			<h3>online</h3>
+			<small class="text-muted">last 24 hrs</small>
+		</div>		
+		<h5 class="success">39%</h5>
+		<h3>1700</h3>
+	</div>
+	</div>
+	<div class="offline">
+		<div class="icon">
+		<img src="grid-18.png" width="25px">
+	</div>
+	<div class="right">
+		<div class="info">
+			<h3>online</h3>
+			<small class="text-muted">last 24 hrs</small>
+		</div>		
+		<h5 class="success">39%</h5>
+		<h3>1700</h3>
+	</div>
+	
+</div>
+</div>		
+</body>
+</html>
